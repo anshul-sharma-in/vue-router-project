@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import History from '@/components/History'
 import Products from '@/components/Products'
+import Computed from '@/components/Computed'
+import Method from '@/components/Method'
 
 Vue.use(Router)
 
@@ -29,6 +31,16 @@ export default new Router({
       path: '/products',
       name: 'Products',
       component: Products
+    },
+    {
+      path: '/computed',
+      name: 'Computed',
+      component: Computed
+    },
+    {
+      path: '/method',
+      name: 'Mehtod',
+      component: Method
     }
   ]
 })

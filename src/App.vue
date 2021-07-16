@@ -13,6 +13,12 @@
           <router-link to="products">
             <button class="btn btn-outline-success me-2" type="button">Products and Services</button>
           </router-link>
+          <router-link to="computed">
+            <button class="btn btn-outline-success me-2" type="button">Computed</button>
+          </router-link>
+          <router-link to="method">
+            <button class="btn btn-outline-success me-2" type="button">Methods</button>
+          </router-link>
         </form>
       </nav>
     </div>
