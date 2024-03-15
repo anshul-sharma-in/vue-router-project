@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/216.png">
+    <img src="./assets/logo.png">
     <div class="container">
       <nav class="navbar navbar-light bg-light">
         <form class="container-fluid justify-content-start">
@@ -11,7 +11,7 @@
             <button class="btn btn-outline-success me-2" type="button">History</button>
           </router-link>
           <router-link to="products">
-            <button class="btn btn-outline-success me-2" type="button">Products and Services</button>
+            <button class="btn btn-outline-success me-2" type="button">Pros and Cons</button>
           </router-link>
           <router-link to="computed">
             <button class="btn btn-outline-success me-2" type="button">Computed</button>
@@ -40,5 +40,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: gray;
 }
 </style>

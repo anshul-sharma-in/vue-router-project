@@ -1,27 +1,43 @@
 <template>
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                Founder Joe Mansueto initially had the idea for Morningstar in 1982 while reviewing mutual fund annual reports he had requested from several prominent fund managers.[6] However, it was only after a year working as a stock analyst for Harris Associates, seeing the fund industry and potential competitors up close, that he was convinced that the opportunity was there.[6][7] Morningstar was subsequently founded in 1984 from his one-bedroom Chicago apartment with an initial investment of US$80,000.[8] The name Morningstar is taken from the last sentence in Walden, a book by Henry David Thoreau; "the sun is but a morning star".[8][9]
-
-                In July 1999, Morningstar accepted an investment of US$91 million from SoftBank in return for a 20 percent stake in the company. The two companies had formed a joint venture in Japan the previous year.[9][10]
-
-                Morningstar's initial public offering occurred on May 3, 2005, with 7,612,500 shares at $18.50 each.[11] The manner in which Morningstar went public is notable. They elected to follow Google's footsteps and use the OpenIPO method rather than the traditional method. This allowed individual investors to bid on the price of the stock, and allowed all investors equal access.
-
-                As of February 2015, Joe Mansueto owned approximately 55% of the outstanding shares in Morningstar.[12]
-
-                In September 2016, Morningstar announced that it had appointed Kunal Kapoor as chief executive officer, effective January 2017, with Mansueto becoming executive chairman at the same time.[13][14]
-
-                In April 2020, Morningstar announced it had reached an agreement to acquire Sustainalytics, a research and rating firm specialized in environmental, social, and governance (ESG) insights.[15]
-            </div>
-        </div>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        Vue.js, created by Evan You, emerged in 2014 as a response to the
+        limitations and complexities of existing frontend frameworks. Inspired
+        by Angular's data binding and React's component-based architecture, Vue
+        aimed to offer a more lightweight and approachable alternative.
+        Initially released in February 2014, Vue gained traction gradually,
+        particularly in the Chinese developer community. Its popularity surged
+        after the release of version 1.0 in October 2015, which introduced
+        features like directives and transitions, enhancing its capabilities for
+        building dynamic user interfaces. With the release of Vue 2.0 in
+        September 2016, Vue underwent significant improvements, including a
+        virtual DOM rewrite for better performance, server-side rendering
+        support, and enhanced component reusability. These updates propelled Vue
+        into mainstream adoption, gaining recognition among developers
+        worldwide. The framework's growth continued with the establishment of
+        Vue.js Devtools, enabling developers to inspect and debug Vue
+        applications more efficiently. Vue's ecosystem expanded rapidly, with
+        the development of Vuex for state management, Vue Router for routing,
+        and Vue CLI for scaffolding projects. Vue's community-driven development
+        model fostered innovation and contributed to its widespread adoption. It
+        gained endorsements from tech giants like Alibaba and Laravel, further
+        solidifying its position as a leading frontend framework. In 2020, Vue
+        3.0 was released, featuring a revamped reactivity system, improved
+        TypeScript support, and better performance optimizations. This release
+        marked a significant milestone, reaffirming Vue's commitment to
+        innovation and developer experience. Today, Vue.js stands as one of the
+        most popular JavaScript frameworks, renowned for its simplicity,
+        flexibility, and progressive nature. Its thriving ecosystem, active
+        community, and continuous evolution ensure Vue's relevance in the
+        ever-changing landscape of web development.
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-    setup() {
-        
-    },
-}
+  setup() {}
+};
 </script>

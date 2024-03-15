@@ -1,34 +1,83 @@
 <template>
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                Morningstar offers a wide array of products and services to both retail and institutional investors.
-
-                Morningstar Investment Management
-                Through its investment management subsidiary, Morningstar currently has over $244 billion in assets under advisement and management.[5]
-
-                Morningstar Direct
-                Morningstar Direct is a software platform that provides data and analytics to help professional investment managers craft new products and portfolios. The product is mainly cloud-based.[16]
-
-                Morningstar Office Cloud
-                Morningstar offers a single end-to-end cloud-based platform for investment advisors, known as Morningstar Office Cloud. The software allows financial advisors to manage their practice, gain access to data and research, analyze investments, and connect with investors.[17]
-
-                Morningstar Premium
-                The firm offers retail and individual investors with access to news, research, and stock, bond, and mutual fund analysis through its 'Morningstar Premium' subscription product.[18]
-
-                Credit Ratings (NRSRO)
-                In 2010, Morningstar acquired Realpoint, LLC, a former division of private-equity giant Capmark Finance and a nationally recognized statistical rating organization (NRSRO).[19] The firm was rebranded as Morningstar Credit Ratings and competes with S&P, Moody's Investors Service, Fitch Ratings and similar Wall Street firms to provide research and ratings of structured debt products, including mortgage-backed securities and asset-backed securities.[20] Today, Morningstar Credit Ratings issues credit ratings on both structured financial products (CMBS, RMBS, CLOs) and corporate/financial institutions.[21]
-
-                On May 29, 2019, Morningstar publicly announced its intention to significantly expand the breadth and scope of its ratings business through a $669 million acquisition of DBRS.[22]
-            </div>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <div>
+          <h3>Advantages of Vue.js:</h3>
+          <ol>
+            <li>
+              Lightweight and easy to learn: Vue.js has a gentle learning curve,
+              making it accessible for developers of all levels. Its simplicity
+              enables rapid development and prototyping.
+            </li>
+            <li>
+              Reactive and component-based: Vue.js utilizes reactive data
+              binding and a component-based architecture, facilitating seamless
+              communication between components and efficient state management.
+            </li>
+            <li>
+              Versatile ecosystem: Vue.js offers a rich ecosystem of tools and
+              libraries, including Vuex for state management, Vue Router for
+              routing, and Vue CLI for project scaffolding, enabling developers
+              to build scalable and feature-rich applications.
+            </li>
+            <li>
+              Performance optimization: Vue.js optimizes performance through
+              features like virtual DOM, server-side rendering (SSR), and
+              built-in caching mechanisms, ensuring smooth and efficient
+              rendering of applications.
+            </li>
+            <li>
+              Incremental adoption: Vue.js allows for incremental adoption,
+              meaning it can be integrated into existing projects without
+              requiring a full rewrite, making it a flexible choice for
+              development teams.
+            </li>
+          </ol>
         </div>
+        <div>
+          <h3>Disadvantages of Vue.js:</h3>
+          <ol>
+            <li>
+              Limited corporate backing: Compared to other frontend frameworks
+              like React (supported by Facebook) and Angular (supported by
+              Google), Vue.js has comparatively fewer resources and corporate
+              backing, potentially impacting its long-term sustainability and
+              support.
+            </li>
+            <li>
+              Smaller community: While Vue.js has a growing community of
+              developers, it is smaller compared to React and Angular
+              communities. This may result in fewer resources, tutorials, and
+              third-party integrations available for Vue.js projects.
+            </li>
+            <li>
+              Rapid evolution: Vue.js undergoes frequent updates and changes,
+              which can sometimes lead to compatibility issues or require
+              developers to adapt to new practices and features, potentially
+              increasing maintenance overhead.
+            </li>
+            <li>
+              Documentation quality: While Vue.js documentation is generally
+              considered good, it may not be as extensive or comprehensive as
+              other frameworks, leading to occasional challenges for developers
+              seeking detailed explanations or solutions to complex problems.
+            </li>
+            <li>
+              Limited official support: Unlike Angular or React, Vue.js doesn't
+              have official support from a large corporation, which can impact
+              the availability of enterprise-level support or dedicated
+              resources for addressing issues and providing guidance.
+            </li>
+          </ol>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-    setup() {
-        
-    },
-}
+  setup() {}
+};
 </script>
